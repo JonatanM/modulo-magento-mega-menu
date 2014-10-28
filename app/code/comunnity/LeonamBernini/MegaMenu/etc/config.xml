@@ -89,6 +89,16 @@
                 </admin>
             </resources>
         </acl>
+        
+        <translate>
+            <modules>
+                <LeonamBernini_MegaMenu>
+                    <files>
+                        <default>LeonamBernini_MegaMenu.csv</default>
+                    </files>
+                </LeonamBernini_MegaMenu>
+            </modules>
+        </translate>
     </adminhtml>
     
     <admin>
@@ -102,16 +112,6 @@
             </megamenu>
         </routers>
     </admin>
-        
-    <translate>
-        <modules>
-            <LeonamBernini_MegaMenu>
-                <files>
-                    <default>LeonamBernini_MegaMenu.csv</default>
-                </files>
-            </LeonamBernini_MegaMenu>
-        </modules>
-    </translate>
     
     <default>
         <megamenu>
